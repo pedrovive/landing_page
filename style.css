@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.navbar {
+    background-color: rgb(138, 88, 54);
+}
+
+#cabecalho
+.nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.carousel-item img {
+    max-height: 700px;
+}
+
+.social-links {
+    list-style: none;
+}
+
+#cabecalho button {
+    background-color: rgb(138, 88, 54);
+}
+
+@media (width <= 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
